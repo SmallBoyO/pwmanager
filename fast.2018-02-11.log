@@ -1,0 +1,91 @@
+2018-02-11 15:12:26.903 - INFO 6416 [           main] com.zhanghe.test.UserserviceTest         : Starting UserserviceTest on admin-PC with PID 6416 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 15:12:26.905 -DEBUG 6416 [           main] com.zhanghe.test.UserserviceTest         : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 15:12:26.905 - INFO 6416 [           main] com.zhanghe.test.UserserviceTest         : The following profiles are active: dev
+2018-02-11 15:12:36.166 - INFO 6416 [           main] com.zhanghe.test.UserserviceTest         : Started UserserviceTest in 9.786 seconds (JVM running for 10.699)
+2018-02-11 15:14:07.432 - INFO 15148 [           main] com.zhanghe.test.UserserviceTest         : Starting UserserviceTest on admin-PC with PID 15148 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 15:14:07.434 -DEBUG 15148 [           main] com.zhanghe.test.UserserviceTest         : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 15:14:07.434 - INFO 15148 [           main] com.zhanghe.test.UserserviceTest         : The following profiles are active: dev
+2018-02-11 15:14:16.029 - INFO 15148 [           main] com.zhanghe.test.UserserviceTest         : Started UserserviceTest in 9.181 seconds (JVM running for 10.151)
+2018-02-11 15:14:16.333 -DEBUG 15148 [           main] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-02-11 15:14:16.548 -DEBUG 15148 [           main] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: admin(String)
+2018-02-11 15:14:16.570 -DEBUG 15148 [           main] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 0
+2018-02-11 15:14:29.480 - INFO 23216 [           main] com.zhanghe.test.UserserviceTest         : Starting UserserviceTest on admin-PC with PID 23216 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 15:14:29.485 -DEBUG 23216 [           main] com.zhanghe.test.UserserviceTest         : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 15:14:29.488 - INFO 23216 [           main] com.zhanghe.test.UserserviceTest         : The following profiles are active: dev
+2018-02-11 15:14:38.034 - INFO 23216 [           main] com.zhanghe.test.UserserviceTest         : Started UserserviceTest in 9.114 seconds (JVM running for 10.002)
+2018-02-11 15:14:38.217 -DEBUG 23216 [           main] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-02-11 15:14:38.409 -DEBUG 23216 [           main] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-02-11 15:14:38.441 -DEBUG 23216 [           main] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-02-11 15:30:22.585 - INFO 21628 [           main] com.zhanghe.test.UserserviceTest         : Starting UserserviceTest on admin-PC with PID 21628 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 15:30:22.589 -DEBUG 21628 [           main] com.zhanghe.test.UserserviceTest         : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 15:30:22.590 - INFO 21628 [           main] com.zhanghe.test.UserserviceTest         : The following profiles are active: dev
+2018-02-11 15:30:30.947 - INFO 21628 [           main] com.zhanghe.test.UserserviceTest         : Started UserserviceTest in 8.885 seconds (JVM running for 9.744)
+2018-02-11 15:30:31.127 -DEBUG 21628 [           main] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-02-11 15:30:31.325 -DEBUG 21628 [           main] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-02-11 15:30:31.351 -DEBUG 21628 [           main] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-02-11 15:42:38.778 - INFO 15368 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 15368 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 15:42:38.784 -DEBUG 15368 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 15:42:38.785 - INFO 15368 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 15:42:56.915 - INFO 5180 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 5180 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 15:42:56.917 -DEBUG 5180 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 15:42:56.917 - INFO 5180 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 15:43:04.999 - INFO 5180 [           main] com.zhanghe.test.AccountServiceTest      : Started AccountServiceTest in 8.609 seconds (JVM running for 9.468)
+2018-02-11 15:43:05.185 -DEBUG 5180 [           main] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount, `password`, phone, domian, `name` ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-02-11 15:43:05.358 -DEBUG 5180 [           main] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: smallbouy(String), 123456(String), 15378202040(String), www.baidu.com(String), 百度(String)
+2018-02-11 15:44:07.423 - INFO 4232 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 4232 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 15:44:07.425 -DEBUG 4232 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 15:44:07.425 - INFO 4232 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 15:44:15.859 - INFO 4232 [           main] com.zhanghe.test.AccountServiceTest      : Started AccountServiceTest in 8.94 seconds (JVM running for 9.786)
+2018-02-11 15:44:16.006 -DEBUG 4232 [           main] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount, `password`, phone, `domain`, `name` ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-02-11 15:44:16.163 -DEBUG 4232 [           main] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: smallbouy(String), 123456(String), 15378202040(String), www.baidu.com(String), 百度(String)
+2018-02-11 15:44:16.171 -DEBUG 4232 [           main] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-02-11 16:12:17.675 - INFO 6912 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 6912 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 16:12:17.677 -DEBUG 6912 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 16:12:17.677 - INFO 6912 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 16:12:26.240 - INFO 6912 [           main] com.zhanghe.test.AccountServiceTest      : Started AccountServiceTest in 9.059 seconds (JVM running for 9.924)
+2018-02-11 16:13:52.765 - INFO 5972 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 5972 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 16:13:52.766 -DEBUG 5972 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 16:13:52.767 - INFO 5972 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 16:14:07.884 - INFO 13280 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 13280 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 16:14:07.885 -DEBUG 13280 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 16:14:07.886 - INFO 13280 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 16:14:16.136 - INFO 13280 [           main] com.zhanghe.test.AccountServiceTest      : Started AccountServiceTest in 8.766 seconds (JVM running for 9.626)
+2018-02-11 16:14:16.503 -DEBUG 13280 [           main] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-02-11 16:14:16.735 -DEBUG 13280 [           main] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-02-11 16:14:16.778 -DEBUG 13280 [           main] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-02-11 16:14:16.781 -DEBUG 13280 [           main] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-02-11 16:14:16.788 -DEBUG 13280 [           main] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-02-11 16:21:21.957 - INFO 23888 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 23888 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 16:21:21.962 -DEBUG 23888 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 16:21:21.962 - INFO 23888 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 16:21:30.382 - INFO 23888 [           main] com.zhanghe.test.AccountServiceTest      : Started AccountServiceTest in 8.919 seconds (JVM running for 9.781)
+2018-02-11 16:21:30.616 -DEBUG 23888 [           main] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name LIKE ?) 
+2018-02-11 16:21:30.820 -DEBUG 23888 [           main] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %%small%%(String)
+2018-02-11 16:21:30.839 -DEBUG 23888 [           main] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name LIKE ?) 
+2018-02-11 16:21:30.841 -DEBUG 23888 [           main] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %%small%%(String)
+2018-02-11 16:21:30.847 -DEBUG 23888 [           main] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-02-11 16:22:02.843 - INFO 16332 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 16332 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 16:22:02.851 -DEBUG 16332 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 16:22:02.851 - INFO 16332 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 16:22:11.369 - INFO 16332 [           main] com.zhanghe.test.AccountServiceTest      : Started AccountServiceTest in 9.055 seconds (JVM running for 9.911)
+2018-02-11 16:22:11.606 -DEBUG 16332 [           main] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name LIKE ?) 
+2018-02-11 16:22:11.854 -DEBUG 16332 [           main] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %%百%%(String)
+2018-02-11 16:22:11.889 -DEBUG 16332 [           main] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name LIKE ?) LIMIT 0,10 
+2018-02-11 16:22:11.892 -DEBUG 16332 [           main] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %%百%%(String)
+2018-02-11 16:22:11.902 -DEBUG 16332 [           main] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-02-11 16:22:33.048 - INFO 24068 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 24068 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 16:22:33.050 -DEBUG 24068 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 16:22:33.050 - INFO 24068 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 16:22:41.501 - INFO 24068 [           main] com.zhanghe.test.AccountServiceTest      : Started AccountServiceTest in 8.981 seconds (JVM running for 9.855)
+2018-02-11 16:22:41.765 -DEBUG 24068 [           main] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name LIKE ?) 
+2018-02-11 16:22:41.995 -DEBUG 24068 [           main] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %百%(String)
+2018-02-11 16:22:42.025 -DEBUG 24068 [           main] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name LIKE ?) LIMIT 0,10 
+2018-02-11 16:22:42.028 -DEBUG 24068 [           main] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %百%(String)
+2018-02-11 16:22:42.037 -DEBUG 24068 [           main] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-02-11 16:59:53.100 - INFO 18120 [           main] com.zhanghe.test.AccountServiceTest      : Starting AccountServiceTest on admin-PC with PID 18120 (started by admin in E:\20170315WorkSpace\pwmanager)
+2018-02-11 16:59:53.104 -DEBUG 18120 [           main] com.zhanghe.test.AccountServiceTest      : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-02-11 16:59:53.105 - INFO 18120 [           main] com.zhanghe.test.AccountServiceTest      : The following profiles are active: dev
+2018-02-11 17:00:01.511 - INFO 18120 [           main] com.zhanghe.test.AccountServiceTest      : Started AccountServiceTest in 8.908 seconds (JVM running for 9.798)
+2018-02-11 17:00:01.705 -DEBUG 18120 [           main] c.z.mapper.AccountMapper.updateById      : ==>  Preparing: UPDATE account SET `domain`=? WHERE id=? 
+2018-02-11 17:00:01.905 -DEBUG 18120 [           main] c.z.mapper.AccountMapper.updateById      : ==> Parameters: www.baidu.com2(String), 1(Long)
+2018-02-11 17:00:01.914 -DEBUG 18120 [           main] c.z.mapper.AccountMapper.updateById      : <==    Updates: 1
