@@ -10,12 +10,17 @@ import com.baomidou.mybatisplus.enums.IdType;
 public class Account {
 	@TableId(type = IdType.AUTO)
 	private Long id;
+	//登录账号
 	public String loginaccount;
+	//密码
 	public String password;
+	//邮箱
 	public String email;
+	//电话
 	public String phone;
-	
+	//网站域名
 	public String domain;
+	//名称
 	public String name;
 	
 	
