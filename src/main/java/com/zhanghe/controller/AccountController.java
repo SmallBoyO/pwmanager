@@ -2,7 +2,10 @@ package com.zhanghe.controller;
 
 import com.zhanghe.fast.starter.util.PageUtil;
 import com.zhanghe.fast.starter.util.ReturnValue;
+import com.zhanghe.vo.AddAccountVo;
+import com.zhanghe.vo.UpdateAccountVo;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -40,18 +43,36 @@ public class AccountController {
 		r.setPage(page);
 		return r.toJson();
 	}
+
 	@ApiOperation(value="添加账号", notes="添加账号")
 	@PostMapping(value = "/add_account")
 	@ResponseBody
 	/**
-	 * @param   
+	 * @param addvo
 	 * @return   
 	 * @author Clevo  
-	 * @date 2018/2/27 0:45  
+	 * @date 2018/2/27 22:45  
 	*/  
-	public String addAccount(){
-		return "啥";
+	public String addAccount(AddAccountVo addvo){
+		Account account = new Account();
+		BeanUtils.copyProperties(addvo,account);
+		accountService.insertAccount(account);
+		return new ReturnValue<String>(1,"").toJson();
 	}
-
+	@ApiOperation(value="更改账号", notes="更改账号")
+	@PostMapping(value = "/update_account")
+	@ResponseBody
+	/**
+	 * @param updatevo  
+	 * @return   
+	 * @author Clevo  
+	 * @date 2018/2/27 22:45  
+	*/  
+	public String updateAccount(UpdateAccountVo updatevo){
+		Account account = new Account();
+		BeanUtils.copyProperties(updatevo,account);
+		accountService.updateAccount(account);
+		return new ReturnValue<String>(1,"").toJson();
+	}
 	
 }

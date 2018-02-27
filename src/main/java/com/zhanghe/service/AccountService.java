@@ -6,7 +6,6 @@ import com.zhanghe.model.Account;
 import com.zhanghe.vo.SearchAccountVo;
 
 public interface AccountService {
-
 	public int insertAccount(Account account);
 	
 	public PageUtil<Account> getAccountByPage(SearchAccountVo vo,PageVO<Account> pagevo);
