@@ -50,7 +50,7 @@ public class AccountController {
 	 * @date 2018/2/27 0:45  
 	*/  
 	public String addAccount(){
-		return "";
+		return "啥";
 	}
 
 	
