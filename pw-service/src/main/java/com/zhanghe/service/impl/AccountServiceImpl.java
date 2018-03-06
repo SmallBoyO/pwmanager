@@ -1,5 +1,6 @@
 package com.zhanghe.service.impl;
 
+import com.zhanghe.util.AESUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -21,13 +22,14 @@ public class AccountServiceImpl implements AccountService {
 	private AccountMapper accountMapper;
 	
 	public int insertAccount( Account account ) {
+		account.setPassword(AESUtil.aesEncrypt(account.getPassword()));
 		return accountMapper.insert(account);
 	}
 
 	public PageUtil<Account> getAccountByPage( SearchAccountVo vo,PageVO<Account> pagevo ) {
 		EntityWrapper<Account> wrapper = new EntityWrapper<Account>();
 		if(vo.getName()!=null){
-			wrapper.eq(Account.NAME, vo.getName());
+			wrapper.like(Account.NAME, vo.getName());
 		}
 		if(vo.getLoginaccount()!=null&&!"".equals(vo.getLoginaccount())){
 			wrapper.like(Account.LOGINACCOUNT, vo.getLoginaccount());
@@ -49,6 +51,9 @@ public class AccountServiceImpl implements AccountService {
 		Page<Account> querypage = new Page<Account>(page.getCorrentPage().intValue(), page.getPageSize().intValue());
 		page.setResult(accountMapper.selectPage(querypage, wrapper));
 		page.setTotal((long)querypage.getTotal());
+		for(Account account:page.getResult()){
+			account.setPassword(AESUtil.aesDecrypt(account.getPassword()));
+		}
 		return page;
 	}
 

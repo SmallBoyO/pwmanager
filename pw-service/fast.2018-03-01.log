@@ -1,0 +1,614 @@
+2018-03-01 00:04:19.271 -DEBUG 14052 [ XNIO-2 task-52] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:04:19.276 -DEBUG 14052 [ XNIO-2 task-52] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:04:19.278 -DEBUG 14052 [ XNIO-2 task-52] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:04:19.279 -DEBUG 14052 [ XNIO-2 task-52] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:04:19.280 -DEBUG 14052 [ XNIO-2 task-52] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:04:19.281 -DEBUG 14052 [ XNIO-2 task-52] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:04:19.282 -DEBUG 14052 [ XNIO-2 task-52] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:04:19.282 -DEBUG 14052 [ XNIO-2 task-52] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:04:19.283 -DEBUG 14052 [ XNIO-2 task-52] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:04:24.438 -DEBUG 14052 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:04:24.443 -DEBUG 14052 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:04:24.446 -DEBUG 14052 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:04:24.447 -DEBUG 14052 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:04:24.448 -DEBUG 14052 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:05:45.141 - INFO 11116 [  restartedMain] com.zhanghe.Application                  : Starting Application on Clevo-PC with PID 11116 (F:\GitWorkSpace\pwmanager\target\classes started by Clevo in F:\GitWorkSpace\pwmanager)
+2018-03-01 00:05:45.142 -DEBUG 11116 [  restartedMain] com.zhanghe.Application                  : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-03-01 00:05:45.143 - INFO 11116 [  restartedMain] com.zhanghe.Application                  : The following profiles are active: dev
+2018-03-01 00:05:49.667 - INFO 11116 [  restartedMain] com.zhanghe.Application                  : Started Application in 4.789 seconds (JVM running for 5.148)
+2018-03-01 00:05:50.568 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:05:50.637 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:05:50.652 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:05:50.654 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:05:50.660 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:05:52.205 -DEBUG 11116 [  XNIO-2 task-3] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:05:52.226 -DEBUG 11116 [  XNIO-2 task-3] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:05:52.228 -DEBUG 11116 [  XNIO-2 task-3] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:05:52.233 -DEBUG 11116 [  XNIO-2 task-3] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:05:52.234 -DEBUG 11116 [  XNIO-2 task-3] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:05:52.236 -DEBUG 11116 [  XNIO-2 task-3] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:05:52.245 -DEBUG 11116 [  XNIO-2 task-3] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:05:52.246 -DEBUG 11116 [  XNIO-2 task-3] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:05:52.247 -DEBUG 11116 [  XNIO-2 task-3] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:05:53.270 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:05:53.271 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:05:53.277 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:05:53.279 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:05:53.282 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:07:19.470 -DEBUG 11116 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:07:19.471 -DEBUG 11116 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:07:19.473 -DEBUG 11116 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:07:19.474 -DEBUG 11116 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:07:19.475 -DEBUG 11116 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:07:22.337 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:07:22.338 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:07:22.341 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:07:22.341 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:07:22.342 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:07:30.499 -DEBUG 11116 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:07:30.500 -DEBUG 11116 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:07:30.501 -DEBUG 11116 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:07:30.502 -DEBUG 11116 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:07:30.503 -DEBUG 11116 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:07:40.052 -DEBUG 11116 [ XNIO-2 task-12] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:07:40.053 -DEBUG 11116 [ XNIO-2 task-12] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:07:40.055 -DEBUG 11116 [ XNIO-2 task-12] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:07:40.057 -DEBUG 11116 [ XNIO-2 task-12] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:07:40.057 -DEBUG 11116 [ XNIO-2 task-12] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:07:40.059 -DEBUG 11116 [ XNIO-2 task-12] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:07:40.060 -DEBUG 11116 [ XNIO-2 task-12] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:07:40.062 -DEBUG 11116 [ XNIO-2 task-12] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:07:40.063 -DEBUG 11116 [ XNIO-2 task-12] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:07:41.758 -DEBUG 11116 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:07:41.758 -DEBUG 11116 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:07:41.761 -DEBUG 11116 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:07:41.762 -DEBUG 11116 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:07:41.763 -DEBUG 11116 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:08:18.987 -DEBUG 11116 [ XNIO-2 task-15] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:08:18.988 -DEBUG 11116 [ XNIO-2 task-15] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:08:18.989 -DEBUG 11116 [ XNIO-2 task-15] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:08:18.989 -DEBUG 11116 [ XNIO-2 task-15] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:08:18.990 -DEBUG 11116 [ XNIO-2 task-15] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:08:23.928 -DEBUG 11116 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:08:23.929 -DEBUG 11116 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:08:23.932 -DEBUG 11116 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:08:23.933 -DEBUG 11116 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:08:23.934 -DEBUG 11116 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:08:23.937 -DEBUG 11116 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:08:23.940 -DEBUG 11116 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:08:23.941 -DEBUG 11116 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:08:23.945 -DEBUG 11116 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:08:26.363 -DEBUG 11116 [ XNIO-2 task-17] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:08:26.364 -DEBUG 11116 [ XNIO-2 task-17] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:08:26.367 -DEBUG 11116 [ XNIO-2 task-17] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:08:26.368 -DEBUG 11116 [ XNIO-2 task-17] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:08:26.370 -DEBUG 11116 [ XNIO-2 task-17] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:08:44.010 -DEBUG 11116 [ XNIO-2 task-19] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:08:44.011 -DEBUG 11116 [ XNIO-2 task-19] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:08:44.012 -DEBUG 11116 [ XNIO-2 task-19] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:08:44.013 -DEBUG 11116 [ XNIO-2 task-19] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:08:44.015 -DEBUG 11116 [ XNIO-2 task-19] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:21:04.679 -DEBUG 11116 [ XNIO-2 task-21] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:21:04.679 -DEBUG 11116 [ XNIO-2 task-21] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:21:04.681 -DEBUG 11116 [ XNIO-2 task-21] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:21:04.681 -DEBUG 11116 [ XNIO-2 task-21] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:21:04.683 -DEBUG 11116 [ XNIO-2 task-21] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:21:47.407 -DEBUG 11116 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:21:47.408 -DEBUG 11116 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:21:47.410 -DEBUG 11116 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:21:47.410 -DEBUG 11116 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:21:47.413 -DEBUG 11116 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:21:50.143 -DEBUG 11116 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:21:50.144 -DEBUG 11116 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:21:50.146 -DEBUG 11116 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:21:50.146 -DEBUG 11116 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:21:50.147 -DEBUG 11116 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:23:21.420 -DEBUG 11116 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:23:21.420 -DEBUG 11116 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:23:21.422 -DEBUG 11116 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:23:21.423 -DEBUG 11116 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:23:21.425 -DEBUG 11116 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:23:30.674 -DEBUG 11116 [ XNIO-2 task-28] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:23:30.675 -DEBUG 11116 [ XNIO-2 task-28] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:23:30.677 -DEBUG 11116 [ XNIO-2 task-28] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:23:30.679 -DEBUG 11116 [ XNIO-2 task-28] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:23:30.680 -DEBUG 11116 [ XNIO-2 task-28] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:23:30.682 -DEBUG 11116 [ XNIO-2 task-28] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:23:30.684 -DEBUG 11116 [ XNIO-2 task-28] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:23:30.685 -DEBUG 11116 [ XNIO-2 task-28] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:23:30.688 -DEBUG 11116 [ XNIO-2 task-28] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:23:31.479 -DEBUG 11116 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:23:31.480 -DEBUG 11116 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:23:31.485 -DEBUG 11116 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:23:31.485 -DEBUG 11116 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:23:31.487 -DEBUG 11116 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:24:59.785 -DEBUG 11116 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:24:59.785 -DEBUG 11116 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:24:59.787 -DEBUG 11116 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:24:59.787 -DEBUG 11116 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:24:59.788 -DEBUG 11116 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:00.782 -DEBUG 11116 [ XNIO-2 task-33] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:00.782 -DEBUG 11116 [ XNIO-2 task-33] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:00.784 -DEBUG 11116 [ XNIO-2 task-33] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:00.784 -DEBUG 11116 [ XNIO-2 task-33] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:00.786 -DEBUG 11116 [ XNIO-2 task-33] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:26.571 -DEBUG 11116 [ XNIO-2 task-35] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:26.571 -DEBUG 11116 [ XNIO-2 task-35] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:26.573 -DEBUG 11116 [ XNIO-2 task-35] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:26.573 -DEBUG 11116 [ XNIO-2 task-35] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:26.574 -DEBUG 11116 [ XNIO-2 task-35] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:29.310 -DEBUG 11116 [ XNIO-2 task-37] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:29.310 -DEBUG 11116 [ XNIO-2 task-37] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:29.312 -DEBUG 11116 [ XNIO-2 task-37] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:29.312 -DEBUG 11116 [ XNIO-2 task-37] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:29.313 -DEBUG 11116 [ XNIO-2 task-37] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:45.119 -DEBUG 11116 [ XNIO-2 task-39] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:45.120 -DEBUG 11116 [ XNIO-2 task-39] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:45.121 -DEBUG 11116 [ XNIO-2 task-39] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:45.122 -DEBUG 11116 [ XNIO-2 task-39] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:45.124 -DEBUG 11116 [ XNIO-2 task-39] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:46.395 -DEBUG 11116 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:46.396 -DEBUG 11116 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:46.397 -DEBUG 11116 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:46.397 -DEBUG 11116 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:46.398 -DEBUG 11116 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:46.686 -DEBUG 11116 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:46.686 -DEBUG 11116 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:46.687 -DEBUG 11116 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:46.688 -DEBUG 11116 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:46.689 -DEBUG 11116 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:46.858 -DEBUG 11116 [ XNIO-2 task-42] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:46.859 -DEBUG 11116 [ XNIO-2 task-42] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:46.860 -DEBUG 11116 [ XNIO-2 task-42] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:46.861 -DEBUG 11116 [ XNIO-2 task-42] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:46.862 -DEBUG 11116 [ XNIO-2 task-42] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:47.045 -DEBUG 11116 [ XNIO-2 task-43] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:47.046 -DEBUG 11116 [ XNIO-2 task-43] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:47.047 -DEBUG 11116 [ XNIO-2 task-43] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:47.047 -DEBUG 11116 [ XNIO-2 task-43] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:47.048 -DEBUG 11116 [ XNIO-2 task-43] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:47.240 -DEBUG 11116 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:47.240 -DEBUG 11116 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:47.241 -DEBUG 11116 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:47.242 -DEBUG 11116 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:47.242 -DEBUG 11116 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:49.489 -DEBUG 11116 [ XNIO-2 task-45] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:49.490 -DEBUG 11116 [ XNIO-2 task-45] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:49.492 -DEBUG 11116 [ XNIO-2 task-45] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:49.492 -DEBUG 11116 [ XNIO-2 task-45] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:49.494 -DEBUG 11116 [ XNIO-2 task-45] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:49.661 -DEBUG 11116 [ XNIO-2 task-46] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:49.661 -DEBUG 11116 [ XNIO-2 task-46] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:49.662 -DEBUG 11116 [ XNIO-2 task-46] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:49.662 -DEBUG 11116 [ XNIO-2 task-46] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:49.663 -DEBUG 11116 [ XNIO-2 task-46] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:49.840 -DEBUG 11116 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:49.840 -DEBUG 11116 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:49.841 -DEBUG 11116 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:49.841 -DEBUG 11116 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:49.842 -DEBUG 11116 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:50.026 -DEBUG 11116 [ XNIO-2 task-48] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:50.027 -DEBUG 11116 [ XNIO-2 task-48] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:50.028 -DEBUG 11116 [ XNIO-2 task-48] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:50.028 -DEBUG 11116 [ XNIO-2 task-48] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:50.029 -DEBUG 11116 [ XNIO-2 task-48] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:50.207 -DEBUG 11116 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:50.208 -DEBUG 11116 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:50.209 -DEBUG 11116 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:50.210 -DEBUG 11116 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:50.211 -DEBUG 11116 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:50.399 -DEBUG 11116 [ XNIO-2 task-50] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:50.401 -DEBUG 11116 [ XNIO-2 task-50] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:50.404 -DEBUG 11116 [ XNIO-2 task-50] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:50.405 -DEBUG 11116 [ XNIO-2 task-50] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:50.406 -DEBUG 11116 [ XNIO-2 task-50] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:28:50.556 -DEBUG 11116 [ XNIO-2 task-51] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:28:50.557 -DEBUG 11116 [ XNIO-2 task-51] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:50.558 -DEBUG 11116 [ XNIO-2 task-51] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:28:50.559 -DEBUG 11116 [ XNIO-2 task-51] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:28:50.560 -DEBUG 11116 [ XNIO-2 task-51] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:39:03.871 -DEBUG 11116 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ? AND name LIKE ?) 
+2018-03-01 00:39:03.873 -DEBUG 11116 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: q(String), %q%(String)
+2018-03-01 00:39:03.874 -DEBUG 11116 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ? AND name LIKE ?) 
+2018-03-01 00:39:03.875 -DEBUG 11116 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: q(String), %q%(String)
+2018-03-01 00:39:03.875 -DEBUG 11116 [ XNIO-2 task-53] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:39:07.525 -DEBUG 11116 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ?) 
+2018-03-01 00:39:07.526 -DEBUG 11116 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:07.527 -DEBUG 11116 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ?) 
+2018-03-01 00:39:07.527 -DEBUG 11116 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:07.528 -DEBUG 11116 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:39:08.268 -DEBUG 11116 [ XNIO-2 task-55] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ?) 
+2018-03-01 00:39:08.269 -DEBUG 11116 [ XNIO-2 task-55] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:08.270 -DEBUG 11116 [ XNIO-2 task-55] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ?) 
+2018-03-01 00:39:08.271 -DEBUG 11116 [ XNIO-2 task-55] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:08.273 -DEBUG 11116 [ XNIO-2 task-55] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:39:08.529 -DEBUG 11116 [ XNIO-2 task-56] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ?) 
+2018-03-01 00:39:08.529 -DEBUG 11116 [ XNIO-2 task-56] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:08.530 -DEBUG 11116 [ XNIO-2 task-56] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ?) 
+2018-03-01 00:39:08.530 -DEBUG 11116 [ XNIO-2 task-56] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:08.531 -DEBUG 11116 [ XNIO-2 task-56] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:39:08.729 -DEBUG 11116 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ?) 
+2018-03-01 00:39:08.730 -DEBUG 11116 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:08.731 -DEBUG 11116 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ?) 
+2018-03-01 00:39:08.731 -DEBUG 11116 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:08.732 -DEBUG 11116 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:39:11.127 -DEBUG 11116 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ?) 
+2018-03-01 00:39:11.128 -DEBUG 11116 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:11.129 -DEBUG 11116 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ?) 
+2018-03-01 00:39:11.130 -DEBUG 11116 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:11.131 -DEBUG 11116 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:39:11.396 -DEBUG 11116 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ?) 
+2018-03-01 00:39:11.397 -DEBUG 11116 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:11.398 -DEBUG 11116 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ?) 
+2018-03-01 00:39:11.399 -DEBUG 11116 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:11.400 -DEBUG 11116 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:39:16.117 -DEBUG 11116 [ XNIO-2 task-60] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ?) 
+2018-03-01 00:39:16.118 -DEBUG 11116 [ XNIO-2 task-60] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:16.119 -DEBUG 11116 [ XNIO-2 task-60] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ?) 
+2018-03-01 00:39:16.119 -DEBUG 11116 [ XNIO-2 task-60] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:39:16.120 -DEBUG 11116 [ XNIO-2 task-60] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:39:53.412 -DEBUG 11116 [ XNIO-2 task-62] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:39:53.412 -DEBUG 11116 [ XNIO-2 task-62] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:53.414 -DEBUG 11116 [ XNIO-2 task-62] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:39:53.415 -DEBUG 11116 [ XNIO-2 task-62] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:53.418 -DEBUG 11116 [ XNIO-2 task-62] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:39:54.874 -DEBUG 11116 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:39:54.875 -DEBUG 11116 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:54.876 -DEBUG 11116 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:39:54.876 -DEBUG 11116 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:54.877 -DEBUG 11116 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:39:55.104 -DEBUG 11116 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:39:55.105 -DEBUG 11116 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:55.106 -DEBUG 11116 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:39:55.106 -DEBUG 11116 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:55.107 -DEBUG 11116 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:39:56.576 -DEBUG 11116 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:39:56.576 -DEBUG 11116 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:56.578 -DEBUG 11116 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:39:56.578 -DEBUG 11116 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:56.579 -DEBUG 11116 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:39:56.746 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:39:56.746 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:56.748 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:39:56.748 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:39:56.749 -DEBUG 11116 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:39:59.055 -DEBUG 11116 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ? AND name LIKE ?) 
+2018-03-01 00:39:59.056 -DEBUG 11116 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: q(String), %q%(String)
+2018-03-01 00:39:59.057 -DEBUG 11116 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ? AND name LIKE ?) 
+2018-03-01 00:39:59.057 -DEBUG 11116 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: q(String), %q%(String)
+2018-03-01 00:39:59.057 -DEBUG 11116 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:40:00.810 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ?) 
+2018-03-01 00:40:00.810 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:40:00.811 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ?) 
+2018-03-01 00:40:00.811 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:40:00.812 -DEBUG 11116 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:40:04.959 -DEBUG 11116 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ?) 
+2018-03-01 00:40:04.959 -DEBUG 11116 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:40:04.960 -DEBUG 11116 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ?) 
+2018-03-01 00:40:04.960 -DEBUG 11116 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: (String)
+2018-03-01 00:40:04.961 -DEBUG 11116 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:40:09.615 -DEBUG 11116 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:40:09.615 -DEBUG 11116 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:40:09.617 -DEBUG 11116 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:40:09.617 -DEBUG 11116 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:40:09.618 -DEBUG 11116 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:40:12.524 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ? AND name LIKE ?) 
+2018-03-01 00:40:12.524 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: qq(String), %qq%(String)
+2018-03-01 00:40:12.525 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ? AND name LIKE ?) LIMIT 0,10 
+2018-03-01 00:40:12.526 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: qq(String), %qq%(String)
+2018-03-01 00:40:12.527 -DEBUG 11116 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:40:19.059 -DEBUG 11116 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name = ? AND name LIKE ?) 
+2018-03-01 00:40:19.059 -DEBUG 11116 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: q(String), %q%(String)
+2018-03-01 00:40:19.060 -DEBUG 11116 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name = ? AND name LIKE ?) 
+2018-03-01 00:40:19.061 -DEBUG 11116 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: q(String), %q%(String)
+2018-03-01 00:40:19.061 -DEBUG 11116 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : <==      Total: 0
+2018-03-01 00:40:56.409 - INFO 14600 [  restartedMain] com.zhanghe.Application                  : Starting Application on Clevo-PC with PID 14600 (F:\GitWorkSpace\pwmanager\target\classes started by Clevo in F:\GitWorkSpace\pwmanager)
+2018-03-01 00:40:56.411 -DEBUG 14600 [  restartedMain] com.zhanghe.Application                  : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-03-01 00:40:56.411 - INFO 14600 [  restartedMain] com.zhanghe.Application                  : The following profiles are active: dev
+2018-03-01 00:41:01.023 - INFO 14600 [  restartedMain] com.zhanghe.Application                  : Started Application in 4.867 seconds (JVM running for 5.226)
+2018-03-01 00:42:41.960 -DEBUG 14600 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (name LIKE ? AND name LIKE ?) 
+2018-03-01 00:42:42.027 -DEBUG 14600 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %q%(String), %q%(String)
+2018-03-01 00:42:42.038 -DEBUG 14600 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (name LIKE ? AND name LIKE ?) LIMIT 0,10 
+2018-03-01 00:42:42.040 -DEBUG 14600 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %q%(String), %q%(String)
+2018-03-01 00:42:42.044 -DEBUG 14600 [  XNIO-2 task-1] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:42:49.641 -DEBUG 14600 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (loginaccount LIKE ?) 
+2018-03-01 00:42:49.642 -DEBUG 14600 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:49.644 -DEBUG 14600 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (loginaccount LIKE ?) LIMIT 0,10 
+2018-03-01 00:42:49.646 -DEBUG 14600 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:49.648 -DEBUG 14600 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:42:50.105 -DEBUG 14600 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (loginaccount LIKE ?) 
+2018-03-01 00:42:50.106 -DEBUG 14600 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:50.110 -DEBUG 14600 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (loginaccount LIKE ?) LIMIT 0,10 
+2018-03-01 00:42:50.111 -DEBUG 14600 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:50.113 -DEBUG 14600 [  XNIO-2 task-3] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:42:50.628 -DEBUG 14600 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (loginaccount LIKE ?) 
+2018-03-01 00:42:50.630 -DEBUG 14600 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:50.636 -DEBUG 14600 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (loginaccount LIKE ?) LIMIT 0,10 
+2018-03-01 00:42:50.637 -DEBUG 14600 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:50.640 -DEBUG 14600 [  XNIO-2 task-4] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:42:50.802 -DEBUG 14600 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (loginaccount LIKE ?) 
+2018-03-01 00:42:50.804 -DEBUG 14600 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:50.808 -DEBUG 14600 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (loginaccount LIKE ?) LIMIT 0,10 
+2018-03-01 00:42:50.809 -DEBUG 14600 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:50.811 -DEBUG 14600 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:42:50.978 -DEBUG 14600 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account WHERE (loginaccount LIKE ?) 
+2018-03-01 00:42:50.979 -DEBUG 14600 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:50.981 -DEBUG 14600 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account WHERE (loginaccount LIKE ?) LIMIT 0,10 
+2018-03-01 00:42:50.982 -DEBUG 14600 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: %55464%(String)
+2018-03-01 00:42:50.984 -DEBUG 14600 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:47:02.198 -DEBUG 14600 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:47:02.199 -DEBUG 14600 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:47:02.201 -DEBUG 14600 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:47:02.201 -DEBUG 14600 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:47:02.203 -DEBUG 14600 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 00:47:06.555 -DEBUG 14600 [  XNIO-2 task-9] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:47:06.557 -DEBUG 14600 [  XNIO-2 task-9] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:47:06.558 -DEBUG 14600 [  XNIO-2 task-9] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:47:06.563 -DEBUG 14600 [  XNIO-2 task-9] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:47:06.565 -DEBUG 14600 [  XNIO-2 task-9] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:47:06.567 -DEBUG 14600 [  XNIO-2 task-9] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:47:06.576 -DEBUG 14600 [  XNIO-2 task-9] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 00:47:06.577 -DEBUG 14600 [  XNIO-2 task-9] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 00:47:06.578 -DEBUG 14600 [  XNIO-2 task-9] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 00:47:07.745 -DEBUG 14600 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 00:47:07.746 -DEBUG 14600 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:47:07.747 -DEBUG 14600 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 00:47:07.748 -DEBUG 14600 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 00:47:07.749 -DEBUG 14600 [ XNIO-2 task-10] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 21:49:08.111 - INFO 13008 [  restartedMain] com.zhanghe.Application                  : Starting Application on Clevo-PC with PID 13008 (F:\GitWorkSpace\pwmanager\target\classes started by Clevo in F:\GitWorkSpace\pwmanager)
+2018-03-01 21:49:08.135 -DEBUG 13008 [  restartedMain] com.zhanghe.Application                  : Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2018-03-01 21:49:08.135 - INFO 13008 [  restartedMain] com.zhanghe.Application                  : The following profiles are active: dev
+2018-03-01 21:49:16.421 - INFO 13008 [  restartedMain] com.zhanghe.Application                  : Started Application in 9.019 seconds (JVM running for 11.694)
+2018-03-01 23:26:17.364 -DEBUG 13008 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 23:26:17.469 -DEBUG 13008 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 23:26:17.480 -DEBUG 13008 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 23:26:17.493 -DEBUG 13008 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 23:26:17.494 -DEBUG 13008 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 23:26:17.495 -DEBUG 13008 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 23:26:17.502 -DEBUG 13008 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==>  Preparing: SELECT id,userName,`name`,`password`,salt,`status` FROM user WHERE userName=? 
+2018-03-01 23:26:17.503 -DEBUG 13008 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : ==> Parameters: zhang(String)
+2018-03-01 23:26:17.505 -DEBUG 13008 [ XNIO-2 task-16] com.zhanghe.mapper.UserMapper.selectOne  : <==      Total: 1
+2018-03-01 23:26:34.641 -DEBUG 13008 [ XNIO-2 task-17] c.z.mapper.AccountMapper.updateById      : ==>  Preparing: UPDATE account SET `name`=? WHERE id=? 
+2018-03-01 23:26:34.650 -DEBUG 13008 [ XNIO-2 task-17] c.z.mapper.AccountMapper.updateById      : ==> Parameters: qq 啊(String), 1(Long)
+2018-03-01 23:26:34.652 -DEBUG 13008 [ XNIO-2 task-17] c.z.mapper.AccountMapper.updateById      : <==    Updates: 1
+2018-03-01 23:26:43.032 -DEBUG 13008 [ XNIO-2 task-18] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:26:43.054 -DEBUG 13008 [ XNIO-2 task-18] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:26:43.057 -DEBUG 13008 [ XNIO-2 task-18] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:26:43.058 -DEBUG 13008 [ XNIO-2 task-18] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:26:43.060 -DEBUG 13008 [ XNIO-2 task-18] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:32:56.237 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:32:56.238 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:32:56.240 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:32:56.241 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:32:56.244 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:33:14.097 -DEBUG 13008 [ XNIO-2 task-22] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:33:14.097 -DEBUG 13008 [ XNIO-2 task-22] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:33:14.098 -DEBUG 13008 [ XNIO-2 task-22] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:33:14.099 -DEBUG 13008 [ XNIO-2 task-22] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:33:14.100 -DEBUG 13008 [ XNIO-2 task-22] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:33:25.503 -DEBUG 13008 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:33:25.504 -DEBUG 13008 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:33:25.506 -DEBUG 13008 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:33:25.507 -DEBUG 13008 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:33:25.508 -DEBUG 13008 [ XNIO-2 task-23] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:33:34.415 -DEBUG 13008 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:33:34.416 -DEBUG 13008 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:33:34.418 -DEBUG 13008 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:33:34.418 -DEBUG 13008 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:33:34.420 -DEBUG 13008 [ XNIO-2 task-26] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:33:49.161 -DEBUG 13008 [ XNIO-2 task-27] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:33:49.162 -DEBUG 13008 [ XNIO-2 task-27] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:33:49.163 -DEBUG 13008 [ XNIO-2 task-27] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:33:49.165 -DEBUG 13008 [ XNIO-2 task-27] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:33:49.166 -DEBUG 13008 [ XNIO-2 task-27] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:34:10.575 -DEBUG 13008 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:34:10.576 -DEBUG 13008 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:34:10.578 -DEBUG 13008 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:34:10.579 -DEBUG 13008 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:34:10.580 -DEBUG 13008 [ XNIO-2 task-29] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:34:17.302 -DEBUG 13008 [ XNIO-2 task-32] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:34:17.303 -DEBUG 13008 [ XNIO-2 task-32] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:34:17.304 -DEBUG 13008 [ XNIO-2 task-32] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:34:17.305 -DEBUG 13008 [ XNIO-2 task-32] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:34:17.307 -DEBUG 13008 [ XNIO-2 task-32] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:35:28.951 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:35:28.952 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:35:28.953 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:35:28.953 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:35:28.954 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:35:59.910 -DEBUG 13008 [ XNIO-2 task-36] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:35:59.911 -DEBUG 13008 [ XNIO-2 task-36] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:35:59.913 -DEBUG 13008 [ XNIO-2 task-36] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:35:59.913 -DEBUG 13008 [ XNIO-2 task-36] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:35:59.915 -DEBUG 13008 [ XNIO-2 task-36] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:36:21.950 -DEBUG 13008 [ XNIO-2 task-38] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:36:21.951 -DEBUG 13008 [ XNIO-2 task-38] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:36:21.953 -DEBUG 13008 [ XNIO-2 task-38] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:36:21.953 -DEBUG 13008 [ XNIO-2 task-38] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:36:21.954 -DEBUG 13008 [ XNIO-2 task-38] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:37:07.167 -DEBUG 13008 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:37:07.168 -DEBUG 13008 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:37:07.172 -DEBUG 13008 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:37:07.173 -DEBUG 13008 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:37:07.174 -DEBUG 13008 [ XNIO-2 task-40] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:48:27.954 -DEBUG 13008 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:48:27.955 -DEBUG 13008 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:48:27.956 -DEBUG 13008 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:48:27.957 -DEBUG 13008 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:48:27.959 -DEBUG 13008 [ XNIO-2 task-41] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:48:34.793 -DEBUG 13008 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:48:34.796 -DEBUG 13008 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:48:34.802 -DEBUG 13008 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:48:34.803 -DEBUG 13008 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:48:34.805 -DEBUG 13008 [ XNIO-2 task-44] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:48:48.768 -DEBUG 13008 [ XNIO-2 task-45] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount, email, phone, `domain`, `name` ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-03-01 23:48:48.774 -DEBUG 13008 [ XNIO-2 task-45] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 我认为若(String), 23231(String), 23213(String), 2131232(String), 213232(String)
+2018-03-01 23:48:48.777 -DEBUG 13008 [ XNIO-2 task-45] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:52:09.436 -DEBUG 13008 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:52:09.437 -DEBUG 13008 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:52:09.438 -DEBUG 13008 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:52:09.439 -DEBUG 13008 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:52:09.442 -DEBUG 13008 [ XNIO-2 task-47] c.z.mapper.AccountMapper.selectPage      : <==      Total: 2
+2018-03-01 23:52:15.637 -DEBUG 13008 [ XNIO-2 task-48] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount, email, phone, `domain`, `name` ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-03-01 23:52:15.638 -DEBUG 13008 [ XNIO-2 task-48] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 121(String), 3213(String), 13213(String), 12321321(String), 3123(String)
+2018-03-01 23:52:15.641 -DEBUG 13008 [ XNIO-2 task-48] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:52:18.948 -DEBUG 13008 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:52:18.949 -DEBUG 13008 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:52:18.954 -DEBUG 13008 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:52:18.955 -DEBUG 13008 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:52:18.959 -DEBUG 13008 [ XNIO-2 task-49] c.z.mapper.AccountMapper.selectPage      : <==      Total: 3
+2018-03-01 23:52:25.680 -DEBUG 13008 [ XNIO-2 task-50] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( `name` ) VALUES ( ? ) 
+2018-03-01 23:52:25.681 -DEBUG 13008 [ XNIO-2 task-50] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 3123s(String)
+2018-03-01 23:52:25.683 -DEBUG 13008 [ XNIO-2 task-50] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:52:28.196 -DEBUG 13008 [ XNIO-2 task-51] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account VALUES 
+2018-03-01 23:52:36.095 -DEBUG 13008 [ XNIO-2 task-52] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account VALUES 
+2018-03-01 23:52:43.018 -DEBUG 13008 [ XNIO-2 task-53] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( `domain` ) VALUES ( ? ) 
+2018-03-01 23:52:43.019 -DEBUG 13008 [ XNIO-2 task-53] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 123213212(String)
+2018-03-01 23:52:43.020 -DEBUG 13008 [ XNIO-2 task-53] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:52:46.023 -DEBUG 13008 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:52:46.023 -DEBUG 13008 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:52:46.027 -DEBUG 13008 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:52:46.028 -DEBUG 13008 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:52:46.030 -DEBUG 13008 [ XNIO-2 task-54] c.z.mapper.AccountMapper.selectPage      : <==      Total: 5
+2018-03-01 23:53:24.014 -DEBUG 13008 [ XNIO-2 task-55] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account VALUES 
+2018-03-01 23:53:29.448 -DEBUG 13008 [ XNIO-2 task-56] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account VALUES 
+2018-03-01 23:53:54.290 -DEBUG 13008 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:53:54.291 -DEBUG 13008 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:53:54.295 -DEBUG 13008 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:53:54.296 -DEBUG 13008 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:53:54.301 -DEBUG 13008 [ XNIO-2 task-57] c.z.mapper.AccountMapper.selectPage      : <==      Total: 5
+2018-03-01 23:53:54.834 -DEBUG 13008 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:53:54.835 -DEBUG 13008 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:53:54.839 -DEBUG 13008 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:53:54.840 -DEBUG 13008 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:53:54.845 -DEBUG 13008 [ XNIO-2 task-58] c.z.mapper.AccountMapper.selectPage      : <==      Total: 5
+2018-03-01 23:53:55.019 -DEBUG 13008 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:53:55.020 -DEBUG 13008 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:53:55.024 -DEBUG 13008 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:53:55.025 -DEBUG 13008 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:53:55.027 -DEBUG 13008 [ XNIO-2 task-59] c.z.mapper.AccountMapper.selectPage      : <==      Total: 5
+2018-03-01 23:53:59.455 -DEBUG 13008 [ XNIO-2 task-60] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( `name` ) VALUES ( ? ) 
+2018-03-01 23:53:59.456 -DEBUG 13008 [ XNIO-2 task-60] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 3123s22(String)
+2018-03-01 23:53:59.460 -DEBUG 13008 [ XNIO-2 task-60] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:54:02.605 -DEBUG 13008 [ XNIO-2 task-61] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount ) VALUES ( ? ) 
+2018-03-01 23:54:02.607 -DEBUG 13008 [ XNIO-2 task-61] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 12122(String)
+2018-03-01 23:54:02.612 -DEBUG 13008 [ XNIO-2 task-61] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:54:05.802 -DEBUG 13008 [ XNIO-2 task-62] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( `domain` ) VALUES ( ? ) 
+2018-03-01 23:54:05.802 -DEBUG 13008 [ XNIO-2 task-62] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 123213212色调(String)
+2018-03-01 23:54:05.805 -DEBUG 13008 [ XNIO-2 task-62] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:54:07.312 -DEBUG 13008 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:07.313 -DEBUG 13008 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:07.317 -DEBUG 13008 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:54:07.320 -DEBUG 13008 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:07.325 -DEBUG 13008 [ XNIO-2 task-63] c.z.mapper.AccountMapper.selectPage      : <==      Total: 8
+2018-03-01 23:54:10.278 -DEBUG 13008 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:10.279 -DEBUG 13008 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:10.286 -DEBUG 13008 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:54:10.287 -DEBUG 13008 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:10.292 -DEBUG 13008 [ XNIO-2 task-64] c.z.mapper.AccountMapper.selectPage      : <==      Total: 8
+2018-03-01 23:54:12.755 -DEBUG 13008 [  XNIO-2 task-1] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( phone ) VALUES ( ? ) 
+2018-03-01 23:54:12.756 -DEBUG 13008 [  XNIO-2 task-1] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 13213色调(String)
+2018-03-01 23:54:12.760 -DEBUG 13008 [  XNIO-2 task-1] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:54:16.722 -DEBUG 13008 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:16.723 -DEBUG 13008 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:16.726 -DEBUG 13008 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:54:16.727 -DEBUG 13008 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:16.731 -DEBUG 13008 [  XNIO-2 task-2] c.z.mapper.AccountMapper.selectPage      : <==      Total: 9
+2018-03-01 23:54:21.955 -DEBUG 13008 [  XNIO-2 task-3] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount, email, `name` ) VALUES ( ?, ?, ? ) 
+2018-03-01 23:54:21.957 -DEBUG 13008 [  XNIO-2 task-3] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 12122色调(String), 3213色调(String), 3123s22是(String)
+2018-03-01 23:54:21.959 -DEBUG 13008 [  XNIO-2 task-3] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:54:24.960 -DEBUG 13008 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:24.961 -DEBUG 13008 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:24.966 -DEBUG 13008 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:54:24.967 -DEBUG 13008 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:24.970 -DEBUG 13008 [  XNIO-2 task-5] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:54:27.126 -DEBUG 13008 [  XNIO-2 task-4] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( phone ) VALUES ( ? ) 
+2018-03-01 23:54:27.126 -DEBUG 13008 [  XNIO-2 task-4] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 13213色调的(String)
+2018-03-01 23:54:27.130 -DEBUG 13008 [  XNIO-2 task-4] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:54:29.721 -DEBUG 13008 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:29.723 -DEBUG 13008 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:29.725 -DEBUG 13008 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:54:29.726 -DEBUG 13008 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:29.731 -DEBUG 13008 [  XNIO-2 task-6] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:54:31.598 -DEBUG 13008 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:31.599 -DEBUG 13008 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:31.601 -DEBUG 13008 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 10,10 
+2018-03-01 23:54:31.602 -DEBUG 13008 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:31.604 -DEBUG 13008 [  XNIO-2 task-7] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:54:32.215 -DEBUG 13008 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:32.216 -DEBUG 13008 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:32.221 -DEBUG 13008 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:54:32.222 -DEBUG 13008 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:32.226 -DEBUG 13008 [  XNIO-2 task-8] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:54:32.924 -DEBUG 13008 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:32.925 -DEBUG 13008 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:32.927 -DEBUG 13008 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 10,10 
+2018-03-01 23:54:32.927 -DEBUG 13008 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:32.930 -DEBUG 13008 [  XNIO-2 task-9] c.z.mapper.AccountMapper.selectPage      : <==      Total: 1
+2018-03-01 23:54:34.536 -DEBUG 13008 [ XNIO-2 task-11] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:34.537 -DEBUG 13008 [ XNIO-2 task-11] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:34.539 -DEBUG 13008 [ XNIO-2 task-11] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:54:34.539 -DEBUG 13008 [ XNIO-2 task-11] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:34.541 -DEBUG 13008 [ XNIO-2 task-11] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:54:57.647 -DEBUG 13008 [ XNIO-2 task-12] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:54:57.649 -DEBUG 13008 [ XNIO-2 task-12] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:57.652 -DEBUG 13008 [ XNIO-2 task-12] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:54:57.654 -DEBUG 13008 [ XNIO-2 task-12] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:54:57.661 -DEBUG 13008 [ XNIO-2 task-12] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:55:28.393 -DEBUG 13008 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:55:28.393 -DEBUG 13008 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:55:28.395 -DEBUG 13008 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:55:28.395 -DEBUG 13008 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:55:28.396 -DEBUG 13008 [ XNIO-2 task-13] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:55:33.953 -DEBUG 13008 [ XNIO-2 task-14] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount, email, phone, `domain`, `name` ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-03-01 23:55:33.955 -DEBUG 13008 [ XNIO-2 task-14] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 2312(String), 3213(String), 232(String), 1321321(String), 3123(String)
+2018-03-01 23:55:33.958 -DEBUG 13008 [ XNIO-2 task-14] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:56:14.198 -DEBUG 13008 [ XNIO-2 task-16] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:56:14.198 -DEBUG 13008 [ XNIO-2 task-16] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:56:14.200 -DEBUG 13008 [ XNIO-2 task-16] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:56:14.200 -DEBUG 13008 [ XNIO-2 task-16] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:56:14.201 -DEBUG 13008 [ XNIO-2 task-16] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:56:22.257 -DEBUG 13008 [ XNIO-2 task-18] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount, email, phone, `domain`, `name` ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-03-01 23:56:22.259 -DEBUG 13008 [ XNIO-2 task-18] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 32(String), 21413(String), 4314(String), 134(String), 314314(String)
+2018-03-01 23:56:22.260 -DEBUG 13008 [ XNIO-2 task-18] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:58:18.031 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:58:18.032 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:58:18.033 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:58:18.033 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:58:18.034 -DEBUG 13008 [ XNIO-2 task-20] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:58:26.178 -DEBUG 13008 [ XNIO-2 task-21] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount, email, phone, `domain`, `name` ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-03-01 23:58:26.179 -DEBUG 13008 [ XNIO-2 task-21] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 21(String), 3123(String), 123(String), 213123(String), 2313(String)
+2018-03-01 23:58:26.180 -DEBUG 13008 [ XNIO-2 task-21] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:58:37.944 -DEBUG 13008 [ XNIO-2 task-24] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:58:37.945 -DEBUG 13008 [ XNIO-2 task-24] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:58:37.946 -DEBUG 13008 [ XNIO-2 task-24] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:58:37.946 -DEBUG 13008 [ XNIO-2 task-24] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:58:37.947 -DEBUG 13008 [ XNIO-2 task-24] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:59:00.069 -DEBUG 13008 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:59:00.069 -DEBUG 13008 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:00.070 -DEBUG 13008 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:59:00.071 -DEBUG 13008 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:00.072 -DEBUG 13008 [ XNIO-2 task-25] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:59:15.151 -DEBUG 13008 [ XNIO-2 task-28] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:59:15.152 -DEBUG 13008 [ XNIO-2 task-28] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:15.153 -DEBUG 13008 [ XNIO-2 task-28] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:59:15.153 -DEBUG 13008 [ XNIO-2 task-28] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:15.155 -DEBUG 13008 [ XNIO-2 task-28] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:59:22.716 -DEBUG 13008 [ XNIO-2 task-30] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:59:22.716 -DEBUG 13008 [ XNIO-2 task-30] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:22.718 -DEBUG 13008 [ XNIO-2 task-30] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:59:22.719 -DEBUG 13008 [ XNIO-2 task-30] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:22.720 -DEBUG 13008 [ XNIO-2 task-30] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:59:38.855 -DEBUG 13008 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:59:38.856 -DEBUG 13008 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:38.857 -DEBUG 13008 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:59:38.858 -DEBUG 13008 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:38.859 -DEBUG 13008 [ XNIO-2 task-31] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
+2018-03-01 23:59:47.213 -DEBUG 13008 [ XNIO-2 task-32] com.zhanghe.mapper.AccountMapper.insert  : ==>  Preparing: INSERT INTO account ( loginaccount, email, phone, `domain`, `name` ) VALUES ( ?, ?, ?, ?, ? ) 
+2018-03-01 23:59:47.214 -DEBUG 13008 [ XNIO-2 task-32] com.zhanghe.mapper.AccountMapper.insert  : ==> Parameters: 213(String), 213(String), 21321(String), 2132131(String), 23(String)
+2018-03-01 23:59:47.218 -DEBUG 13008 [ XNIO-2 task-32] com.zhanghe.mapper.AccountMapper.insert  : <==    Updates: 1
+2018-03-01 23:59:59.920 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM account 
+2018-03-01 23:59:59.921 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:59.923 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : ==>  Preparing: SELECT id,loginaccount,`password`,email,phone,`domain`,`name` FROM account LIMIT 0,10 
+2018-03-01 23:59:59.924 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : ==> Parameters: 
+2018-03-01 23:59:59.925 -DEBUG 13008 [ XNIO-2 task-34] c.z.mapper.AccountMapper.selectPage      : <==      Total: 10
